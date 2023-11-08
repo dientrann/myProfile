@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$widthBody: 1440px;
+
+
+.bodyProfile {
+    width: $widthBody;
+    margin: auto;
+    position: relative;
+
+    img {
+        height: 300px;
+        width: 300px;
+    }
+
+}
+
+.HeaderProfile {
+    width: 1300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 130px;
+    left: 20px;
+
+    img {
+        height: 350px;
+        width: 350px;
+        border-radius: 50%;
+        border: 10px solid rgb(35 56 77);
+    }
+
+    .infoProfile {
+        font-size: 40px;
+        text-align: center;
+        color: rgb(35 56 77);
+        border-bottom: 2px solid rgb(35 56 77);
+    }
+}
+
+.bodyInfo{
+    display: flex;
+}
+
+.leftComponent {
+    width: 500px;
+    margin: 200px 0 0 50px;
+}
+
+.aboutMe {
+    h2 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .itemInfo {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        p {
+            margin-left: 20px;
+        }
+        a{
+            margin-left: 20px;
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+.expertiseSkill {
+    margin: 20px 0 0 0;
+    .title {
+        text-align: center;
+        line-height: 50px;
+        background-color: rgb(35 56 77);
+        color: white;
+        height: 50px;
+    }
+    .content{
+        margin: 0 0 0 20px;
+        ul>li{
+            margin: 10px 0 0 0;
+            p{
+                margin: 5px;
+            }
+        }
+    }
+}
+
+.Project{
+    margin: 20px 0 0 0;
+    .title {
+        text-align: center;
+        line-height: 50px;
+        background-color: rgb(35 56 77);
+        color: white;
+        height: 50px;
+    }
+    .content{
+        margin: 0 0 0 20px;
+        ul>li{
+            margin: 10px 0 0 0;
+            p{
+                margin: 5px;
+            }
+        }
+    }
+}
+
+.careerGoals{
+    .title {
+        text-align: center;
+        line-height: 50px;
+        background-color: rgb(35 56 77);
+        color: white;
+        height: 50px;
+    }
+    .content{
+        margin: 10px 0 0 0;
+    }
+}
+
+.rightComponent {
+    width: 840px;
+    margin: 200px 0 0 50px;
+}
+
+
+.experience {
+    .title {
+        text-align: center;
+        line-height: 50px;
+        background-color: rgb(35 56 77);
+        color: white;
+        height: 50px;
+    }
+    .item{
+        margin: 10px 0 0 0 ;
+        ul,ol >li{
+            margin: 10px 0 0 20px;
+            h3{
+                margin: 5px;
+            }
+            p{
+                margin: 5px;
+            }
+        }
+    }
+}
+
+.education {
+    margin-top: 20px;
+    .title {
+        text-align: center;
+        line-height: 50px;
+        background-color: rgb(35 56 77);
+        color: white;
+        height: 50px;
+    }
+    .content{  
+       h3{
+        margin: 10px 0 0 0 ;
+       }
+       h4{
+        margin: 5px 0 0 5px;
+       }
+       h5{
+        margin: 5px 0 0 10px;
+       }
+       p{
+        margin: 5px 0 0 15px;
+       }
+    }
+}
