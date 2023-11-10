@@ -1,7 +1,7 @@
 import HeaderProfile from "./components/headerComponents/HeaderProfile"
 import './App.scss'
 import LeftComponent from "./components/leftComponents/LeftComponent"
-import RightComponent from "./components/rightComponents/rightComponent"
+import RightComponent from "./components/rightComponents/RightComponent"
 
 function App() {
 
