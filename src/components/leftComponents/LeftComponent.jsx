@@ -1,7 +1,7 @@
 import AboutMe from "./AboutMe";
 import CareerGoals from "./CareerGoals";
 import Project from "./Project";
-import ExpertiseSkill from "./expertiseSkill";
+import ExpertiseSkill from "./ExpertiseSkill";
 
 export default function LeftComponent(){
     return (
