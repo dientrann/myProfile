@@ -8,7 +8,6 @@ export default function HeaderProfile(){
                 <div className="infoProfile">
                     <h1>Tran Van Dien</h1>
                     <h4>Web Developer</h4>
-                    
                 </div>
             </div>
         </>
